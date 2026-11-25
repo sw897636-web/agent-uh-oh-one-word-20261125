@@ -9,7 +9,7 @@
 // it stalls, lands at a glance, and is easy to say out loud.
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const WORD = "krrzt";
+const WORD = "ummmmmmkrrzt";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
